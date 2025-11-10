@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block title %}Beranda{% endblock %}
+{% block content %}
+<div class="text-center my-5" data-aos="fade-up" data-aos-delay="100">
+    <h1 class="display-4 fw-bold mb-3">Selamat Datang di Aplikasi Pengamanan Dokumen Data Waris</h1>
+    <p class="lead mb-4">Kelurahan Sogaten, Kecamatan Manguharjo Kota Madiun, Jawa Timur.</p>
+    <a href="{{ url_for('enkripsi') }}" class="btn btn-primary btn-lg shadow-sm" data-aos="zoom-in"
+        data-aos-delay="300">Mulai Enkripsi</a>
+</div>
+
+<div class="row text-center mt-5">
+    <div class="col-md-4" data-aos="fade-right" data-aos-delay="400">
+        <div class="p-3 border rounded shadow-sm">
+            <i class="bi bi-shield-lock fs-1 text-primary mb-3"></i>
+            <h5>Keamanan Data</h5>
+            <p>Proteksi dokumen dengan algoritma gabungan AES (Advanced Encryption Standard)
+                dan Blowfish.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="600">
+        <div class="p-3 border rounded shadow-sm">
+            <i class="bi bi-clock-history fs-1 text-primary mb-3"></i>
+            <h5>Riwayat Lengkap</h5>
+            <p>Catat setiap aktivitas enkripsi dan dekripsi dengan mudah.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mt-4 mt-md-0" data-aos="fade-left" data-aos-delay="800">
+        <div class="p-3 border rounded shadow-sm">
+            <i class="bi bi-people fs-1 text-primary mb-3"></i>
+            <h5>Mudah Digunakan</h5>
+            <p>Antarmuka simpel dan siap dipakai instansi pemerintah.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

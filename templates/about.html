@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}Tentang Kami - Aplikasi Enkripsi{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4 fw-bold text-primary text-center" data-aos="fade-right">ℹ️ Tentang Aplikasi</h1>
+
+    <!-- Kotak paragraf penjelasan utama -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+            <div class="p-4 border rounded shadow-sm shadow-sm bg-light hover-card" data-aos="fade-up"
+                data-aos-delay="200" data-aos-once="true">
+                <div class="text-start">
+                    <p class="lead mt-3">
+                        Aplikasi Enkripsi Data Waris ini dikembangkan untuk membantu instansi pemerintah kelurahan
+                        Sogaten dalam
+                        menjaga keamanan informasi penting terkait data pewarisan.
+                    </p>
+                    <p>
+                        Tujuan utama aplikasi ini adalah memastikan setiap data berbentuk dokumen yang disimpan dan
+                        dikirimkan
+                        tetap terjaga kerahasiaannya, mencegah akses tidak sah.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr data-aos="fade-in" data-aos-delay="300">
+
+    <!-- Kotak fitur utama -->
+    <div class="row justify-content-center mb-4 shadow-sm bg-light hover-card">
+        <div class="col-md-8">
+            <div class="p-4 border rounded shadow-sm" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+                <h3 class="fw-semibold mb-3 text-center">Fitur Utama</h3>
+                <ul class="list-unstyled ps-3">
+                    <li>✅ Enkripsi dan dekripsi data menggunakan algoritma gabungan AES (Advanced Encryption Standard)
+                        dan Blowfish.</li>
+                    <li>✅ Riwayat aktivitas untuk memantau proses enkripsi dan dekripsi.</li>
+                    <li>✅ Antarmuka yang ramah pengguna dan mudah digunakan oleh instansi pemerintah.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr data-aos="fade-in" data-aos-delay="500">
+
+    <!-- Kotak versi aplikasi -->
+    <div class="row justify-content-center shadow-sm bg-light hover-card">
+        <div class="col-md-8">
+            <div class="p-4 border rounded shadow-sm text-center" data-aos="fade-up" data-aos-delay="600"
+                data-aos-once="true">
+                <h3 class="fw-semibold mb-3">Versi Aplikasi</h3>
+                <p>Versi 1.0.0 - Dirilis pada Juni 2025</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

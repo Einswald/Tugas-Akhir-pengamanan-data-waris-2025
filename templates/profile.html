@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block title %}Profil Pengguna{% endblock %}
+{% block content %}
+
+<div class="container">
+    <h2 class="mb-4 fw-bold text-center" data-aos="fade-down" data-aos-delay="100">Profil Pengguna</h2>
+
+    <div class="card shadow-lg rounded-4 p-4 mx-auto hover-card" style="max-width: 500px;" data-aos="zoom-in"
+        data-aos-delay="200">
+
+        <div class="card-body text-center">
+
+            {% if user.foto_profil %}
+            <img src="{{ url_for('static', filename='uploads/' + user.foto_profil) }}" alt="Foto Profil"
+                class="img-thumbnail mb-3 shadow" style="width: 150px; border-radius: 12px;" data-aos="fade-up"
+                data-aos-delay="300">
+            {% else %}
+            <img src="{{ url_for('static', filename='uploads/default.jpg') }}" alt="Foto Default"
+                class="img-thumbnail mb-3 shadow" style="width: 150px; border-radius: 12px;" data-aos="fade-up"
+                data-aos-delay="300">
+            {% endif %}
+
+            <p class="mb-1" data-aos="fade-up" data-aos-delay="400"><strong>Nama:</strong> {{ user.nama_lengkap }}</p>
+            <p class="mb-1" data-aos="fade-up" data-aos-delay="450"><strong>Email:</strong> {{ user.email or '-' }}</p>
+            <p class="mb-1" data-aos="fade-up" data-aos-delay="500"><strong>Role:</strong> {{ user.role }}</p>
+            <p class="mb-1" data-aos="fade-up" data-aos-delay="550"><strong>Username:</strong> {{ user.username }}</p>
+            <p class="mb-3" data-aos="fade-up" data-aos-delay="600"><strong>Dibuat pada:</strong>
+                {{ user.created_at.strftime('%d-%m-%Y') if user.created_at else '-' }}</p>
+
+            <a href="{{ url_for('edit_profile') }}" class="btn btn-primary btn-sm mt-3 px-4 shadow-sm"
+                data-aos="fade-up" data-aos-delay="700">
+                ✏️ Edit Profil
+            </a>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

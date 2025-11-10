@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block title %}Edit Profil{% endblock %}
+{% block content %}
+
+<div class="container">
+    <h2 class="mb-4 fw-bold text-center" data-aos="fade-down" data-aos-delay="100">Edit Profil</h2>
+
+    <div class="card shadow-lg rounded-4 p-4 mx-auto hover-card"
+         style="max-width: 500px;" data-aos="zoom-in" data-aos-delay="200">
+
+        <form method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="300">
+                <label for="nama_lengkap" class="form-label fw-semibold">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama_lengkap" name="nama_lengkap"
+                       value="{{ user.nama_lengkap }}" required>
+            </div>
+
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="350">
+                <label for="email" class="form-label fw-semibold">Email</label>
+                <input type="email" class="form-control" id="email" name="email"
+                       value="{{ user.email }}" required>
+            </div>
+
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="400">
+                <label for="foto_profil" class="form-label fw-semibold">Foto Profil</label><br>
+                {% if user.foto_profil %}
+                    <img src="{{ url_for('static', filename='uploads/' + user.foto_profil) }}"
+                         alt="Foto Sekarang" class="img-thumbnail mb-2 shadow"
+                         style="width: 120px; border-radius: 12px;">
+                {% endif %}
+                <input type="file" class="form-control" name="foto_profil">
+            </div>
+
+            <div class="d-grid gap-2 mt-4" data-aos="fade-up" data-aos-delay="500">
+                <button type="submit" class="btn btn-success fw-semibold shadow-sm">💾 Simpan Perubahan</button>
+                <a href="{{ url_for('profile') }}" class="btn btn-secondary fw-semibold shadow-sm">↩️ Batal</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block title %}Dekripsi Dokumen{% endblock %}
+
+{% block content %}
+<div class="container py-5" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-sm" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0"><i class="bi bi-unlock-fill"></i> Dekripsi Dokumen</h4>
+                </div>
+                <div class="card-body">
+                    <form id="decryptForm" enctype="multipart/form-data" data-aos="fade-up" data-aos-delay="300">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <div class="mb-3">
+                            <label for="file" class="form-label">Pilih File Terenkripsi (.enc)</label>
+                            <input type="file" class="form-control" name="file" id="file" accept=".enc" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customKey" class="form-label">Kunci Rahasia (Custom Key)</label>
+                            <input type="password" class="form-control" name="custom_key" id="customKey" autocomplete="off" required>
+                        </div>
+                        <div class="d-grid">
+                            <button id="decryptButton" type="submit" class="btn btn-danger">
+                                <i class="bi bi-unlock-fill"></i> Dekripsi Sekarang
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Spinner -->
+                    <div id="loadingSpinner" class="text-center my-3 d-none">
+                        <div class="spinner-border text-danger" role="status">
+                            <span class="visually-hidden">Memproses...</span>
+                        </div>
+                        <p class="mt-2">Sedang mendekripsi dokumen...</p>
+                    </div>
+
+                    <!-- Hasil -->
+                    <div id="resultSection" class="mt-4 d-none" data-aos="fade-right" data-aos-delay="400">
+                        <div class="alert alert-success">
+                            <h5><i class="bi bi-check-circle-fill"></i> Dekripsi Berhasil!</h5>
+                            <a id="downloadLink" class="btn btn-outline-primary mt-2" download>
+                                <i class="bi bi-download"></i> Unduh File Hasil Dekripsi
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Error -->
+                    <div id="errorSection" class="alert alert-danger mt-3 d-none" data-aos="fade-left"
+                        data-aos-delay="400"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('decryptForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        const resultSection = document.getElementById('resultSection');
+        const errorSection = document.getElementById('errorSection');
+        const loadingSpinner = document.getElementById('loadingSpinner');
+        const decryptButton = document.getElementById('decryptButton');
+
+        // Reset dan tampilkan loading
+        resultSection.classList.add('d-none');
+        errorSection.classList.add('d-none');
+        loadingSpinner.classList.remove('d-none');
+        decryptButton.disabled = true;
+
+        try {
+            const response = await fetch('/decrypt_file', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            loadingSpinner.classList.add('d-none');
+            decryptButton.disabled = false;
+
+            if (!response.ok) {
+                throw new Error(data.error || 'Terjadi kesalahan saat dekripsi.');
+            }
+
+            document.getElementById('downloadLink').href = data.decrypted_file_url;
+            document.getElementById('downloadLink').setAttribute('download', data.filename || 'hasil.pdf');
+            resultSection.classList.remove('d-none');
+            form.reset();
+        } catch (err) {
+            loadingSpinner.classList.add('d-none');
+            decryptButton.disabled = false;
+            errorSection.textContent = '❌ ' + err.message;
+            errorSection.classList.remove('d-none');
+        }
+    });
+</script>
+{% endblock %}

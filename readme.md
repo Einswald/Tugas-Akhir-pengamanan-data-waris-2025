@@ -1,0 +1,4 @@
+- Website ini menggunakan framework dari flask
+- Jinja2 digunakan untuk tampilan antarmuka
+- Css dalam web ini menggunakan bootsrap
+- database menggunakan mysql

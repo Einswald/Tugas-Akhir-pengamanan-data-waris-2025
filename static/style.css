@@ -1,0 +1,17 @@
+/* Perbesar font dan padding di sidebar */
+.sidebar a {
+    font-size: 18px;
+    padding: 14px 24px;
+}
+
+/* Aktif dan hover state lebih jelas */
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+/* Tambahan spacing antar menu */
+.sidebar a + a {
+    margin-top: 8px;
+}

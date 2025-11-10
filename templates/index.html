@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enkripsi & Dekripsi File</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .download {
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Demo Enkripsi & Dekripsi</h1>
+
+    <div class="section">
+        <h2>🔐 Enkripsi File</h2>
+        <input type="file" id="encryptFile" />
+        <button onclick="encrypt()">Enkripsi</button>
+        <div id="encryptResult"></div>
+    </div>
+
+    <div class="section">
+        <h2>🔓 Dekripsi File</h2>
+        <input type="file" id="decryptFile" />
+        <textarea id="aes_key" placeholder="AES Key (Base64)"></textarea>
+        <textarea id="aes_iv" placeholder="AES IV (Base64)"></textarea>
+        <textarea id="blowfish_key" placeholder="Blowfish Key (Base64)"></textarea>
+        <textarea id="blowfish_iv" placeholder="Blowfish IV (Base64)"></textarea>
+        <button onclick="decrypt()">Dekripsi</button>
+        <div id="decryptResult"></div>
+    </div>
+
+    <script>
+        function encrypt() {
+            const file = document.getElementById('encryptFile').files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/encrypt_file', {
+                method: 'POST',
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    const result = `
+          <p><strong>File terenkripsi:</strong> <a class="download" href="${data.encrypted_file_url}">Download</a></p>
+          <p><strong>AES Key:</strong> ${data.aes_key}</p>
+          <p><strong>AES IV:</strong> ${data.aes_iv}</p>
+          <p><strong>Blowfish Key:</strong> ${data.blowfish_key}</p>
+          <p><strong>Blowfish IV:</strong> ${data.blowfish_iv}</p>
+        `;
+                    document.getElementById('encryptResult').innerHTML = result;
+                });
+        }
+
+        function decrypt() {
+            const file = document.getElementById('decryptFile').files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('aes_key', document.getElementById('aes_key').value);
+            formData.append('aes_iv', document.getElementById('aes_iv').value);
+            formData.append('blowfish_key', document.getElementById('blowfish_key').value);
+            formData.append('blowfish_iv', document.getElementById('blowfish_iv').value);
+
+            fetch('/decrypt_file', {
+                method: 'POST',
+                body: formData
+            })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById('decryptResult').innerHTML =
+                        `<p><strong>File didekripsi:</strong> <a class="download" href="${data.decrypted_file_url}">Download</a></p>`;
+                });
+        }
+    </script>
+</body>
+
+</html>

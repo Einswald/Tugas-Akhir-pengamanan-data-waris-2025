@@ -1,0 +1,371 @@
+2025-07-10 19:12:57,910:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-07-10 19:12:57,912:INFO:[33mPress CTRL+C to quit[0m
+2025-07-10 19:12:58,017:INFO: * Restarting with watchdog (windowsapi)
+2025-07-10 19:12:58,427:WARNING: * Debugger is active!
+2025-07-10 19:12:58,435:INFO: * Debugger PIN: 126-439-226
+2025-07-10 19:13:04,122:INFO:127.0.0.1 - - [10/Jul/2025 19:13:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-10 19:13:04,168:INFO:127.0.0.1 - - [10/Jul/2025 19:13:04] "GET /login HTTP/1.1" 200 -
+2025-07-10 19:13:04,169:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-10 19:13:04,293:INFO:127.0.0.1 - - [10/Jul/2025 19:13:04] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-10 19:13:04,311:INFO:127.0.0.1 - - [10/Jul/2025 19:13:04] "[33mGET /static/favicon-32x32.png HTTP/1.1[0m" 404 -
+2025-07-10 19:13:04,576:INFO: * Restarting with watchdog (windowsapi)
+2025-07-10 19:13:05,015:WARNING: * Debugger is active!
+2025-07-10 19:13:05,019:INFO: * Debugger PIN: 126-439-226
+2025-07-10 19:13:11,643:INFO:127.0.0.1 - - [10/Jul/2025 19:13:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 19:13:11,670:INFO:127.0.0.1 - - [10/Jul/2025 19:13:11] "GET / HTTP/1.1" 200 -
+2025-07-10 19:13:11,782:INFO:127.0.0.1 - - [10/Jul/2025 19:13:11] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:13:19,473:INFO:127.0.0.1 - - [10/Jul/2025 19:13:19] "GET /profile HTTP/1.1" 200 -
+2025-07-10 19:13:19,499:INFO:127.0.0.1 - - [10/Jul/2025 19:13:19] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:13:19,511:INFO:127.0.0.1 - - [10/Jul/2025 19:13:19] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-10 19:13:25,227:INFO:127.0.0.1 - - [10/Jul/2025 19:13:25] "GET / HTTP/1.1" 200 -
+2025-07-10 19:13:25,254:INFO:127.0.0.1 - - [10/Jul/2025 19:13:25] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:13:46,713:INFO:127.0.0.1 - - [10/Jul/2025 19:13:46] "GET /profile HTTP/1.1" 200 -
+2025-07-10 19:13:46,737:INFO:127.0.0.1 - - [10/Jul/2025 19:13:46] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:13:46,740:INFO:127.0.0.1 - - [10/Jul/2025 19:13:46] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-10 19:22:21,736:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__init__.py', reloading
+2025-07-10 19:22:21,766:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-07-10 19:22:21,845:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\app.py', reloading
+2025-07-10 19:22:21,880:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-07-10 19:22:21,918:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\globals.py', reloading
+2025-07-10 19:22:21,933:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\wrappers.py', reloading
+2025-07-10 19:22:21,948:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-07-10 19:22:21,967:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-07-10 19:22:21,992:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-07-10 19:22:22,014:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\json\\__init__.py', reloading
+2025-07-10 19:22:22,034:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-07-10 19:22:22,068:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-07-10 19:22:22,092:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\helpers.py', reloading
+2025-07-10 19:22:22,151:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\templating.py', reloading
+2025-07-10 19:22:22,169:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\__init__.py', reloading
+2025-07-10 19:22:22,193:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\environment.py', reloading
+2025-07-10 19:22:22,379:INFO: * Restarting with watchdog (windowsapi)
+2025-07-10 19:22:23,069:WARNING: * Debugger is active!
+2025-07-10 19:22:23,078:INFO: * Debugger PIN: 126-439-226
+2025-07-10 19:22:23,134:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+2025-07-10 19:22:23,413:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\security.py', reloading
+2025-07-10 19:22:23,429:INFO: * Detected change in 'D:\\Mraas\\Kuliah\\TA\\Pengamanan Data Waris backup\\crypto\\crypto_combined.py', reloading
+2025-07-10 19:22:23,494:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\config.py', reloading
+2025-07-10 19:22:23,572:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\accept.py', reloading
+2025-07-10 19:22:23,724:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\__init__.py', reloading
+2025-07-10 19:22:23,744:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\url_safe.py', reloading
+2025-07-10 19:22:23,761:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\serializer.py', reloading
+2025-07-10 19:22:23,782:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\timed.py', reloading
+2025-07-10 19:22:23,803:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\signer.py', reloading
+2025-07-10 19:22:24,266:INFO: * Restarting with watchdog (windowsapi)
+2025-07-10 19:22:24,894:WARNING: * Debugger is active!
+2025-07-10 19:22:24,899:INFO: * Debugger PIN: 126-439-226
+2025-07-10 19:28:09,148:INFO:127.0.0.1 - - [10/Jul/2025 19:28:09] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-07-10 19:28:09,162:INFO:127.0.0.1 - - [10/Jul/2025 19:28:09] "GET /login HTTP/1.1" 200 -
+2025-07-10 19:28:09,297:INFO:127.0.0.1 - - [10/Jul/2025 19:28:09] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:16,296:INFO:127.0.0.1 - - [10/Jul/2025 19:54:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 19:54:16,310:INFO:127.0.0.1 - - [10/Jul/2025 19:54:16] "GET / HTTP/1.1" 200 -
+2025-07-10 19:54:16,336:INFO:127.0.0.1 - - [10/Jul/2025 19:54:16] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:17,499:INFO:127.0.0.1 - - [10/Jul/2025 19:54:17] "GET /profile HTTP/1.1" 200 -
+2025-07-10 19:54:17,526:INFO:127.0.0.1 - - [10/Jul/2025 19:54:17] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:17,528:INFO:127.0.0.1 - - [10/Jul/2025 19:54:17] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:20,574:INFO:127.0.0.1 - - [10/Jul/2025 19:54:20] "GET /edit_profile HTTP/1.1" 200 -
+2025-07-10 19:54:20,604:INFO:127.0.0.1 - - [10/Jul/2025 19:54:20] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:20,605:INFO:127.0.0.1 - - [10/Jul/2025 19:54:20] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:43,663:INFO:127.0.0.1 - - [10/Jul/2025 19:54:43] "GET /profile HTTP/1.1" 200 -
+2025-07-10 19:54:43,690:INFO:127.0.0.1 - - [10/Jul/2025 19:54:43] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:43,690:INFO:127.0.0.1 - - [10/Jul/2025 19:54:43] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-10 19:54:48,302:INFO:127.0.0.1 - - [10/Jul/2025 19:54:48] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-07-10 19:54:48,310:INFO:127.0.0.1 - - [10/Jul/2025 19:54:48] "GET /login HTTP/1.1" 200 -
+2025-07-10 19:54:48,341:INFO:127.0.0.1 - - [10/Jul/2025 19:54:48] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:56:47,803:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.70.1.140:5000
+2025-07-11 07:56:47,803:INFO:[33mPress CTRL+C to quit[0m
+2025-07-11 07:56:47,894:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 07:56:48,285:WARNING: * Debugger is active!
+2025-07-11 07:56:48,293:INFO: * Debugger PIN: 102-923-634
+2025-07-11 07:56:54,243:INFO:127.0.0.1 - - [11/Jul/2025 07:56:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-11 07:56:54,365:INFO:127.0.0.1 - - [11/Jul/2025 07:56:54] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:56:54,365:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-11 07:56:54,474:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 07:56:54,905:WARNING: * Debugger is active!
+2025-07-11 07:56:54,909:INFO: * Debugger PIN: 102-923-634
+2025-07-11 07:56:54,947:INFO:127.0.0.1 - - [11/Jul/2025 07:56:54] "[33mGET /static/favicon-32x32.png HTTP/1.1[0m" 404 -
+2025-07-11 07:56:56,555:INFO:127.0.0.1 - - [11/Jul/2025 07:56:56] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:56:56,661:INFO:127.0.0.1 - - [11/Jul/2025 07:56:56] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:56:57,996:INFO:127.0.0.1 - - [11/Jul/2025 07:56:57] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:56:58,013:INFO:127.0.0.1 - - [11/Jul/2025 07:56:58] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:56:59,015:INFO:127.0.0.1 - - [11/Jul/2025 07:56:59] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:56:59,030:INFO:127.0.0.1 - - [11/Jul/2025 07:56:59] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:56:59,951:INFO:127.0.0.1 - - [11/Jul/2025 07:56:59] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:56:59,969:INFO:127.0.0.1 - - [11/Jul/2025 07:56:59] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:27,258:INFO:127.0.0.1 - - [11/Jul/2025 07:57:27] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:57:27,274:INFO:127.0.0.1 - - [11/Jul/2025 07:57:27] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:28,992:INFO:127.0.0.1 - - [11/Jul/2025 07:57:28] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:57:29,024:INFO:127.0.0.1 - - [11/Jul/2025 07:57:29] "[36mGET /static/logoKeamanan.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:29,167:INFO:127.0.0.1 - - [11/Jul/2025 07:57:29] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:44,468:INFO:127.0.0.1 - - [11/Jul/2025 07:57:44] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:57:44,483:INFO:127.0.0.1 - - [11/Jul/2025 07:57:44] "[33mGET /static/faviconKotaMadiun.png HTTP/1.1[0m" 404 -
+2025-07-11 07:57:44,509:INFO:127.0.0.1 - - [11/Jul/2025 07:57:44] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:46,398:INFO:127.0.0.1 - - [11/Jul/2025 07:57:46] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:57:46,419:INFO:127.0.0.1 - - [11/Jul/2025 07:57:46] "[33mGET /static/faviconKotaMadiun.png HTTP/1.1[0m" 404 -
+2025-07-11 07:57:46,447:INFO:127.0.0.1 - - [11/Jul/2025 07:57:46] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:54,962:INFO:127.0.0.1 - - [11/Jul/2025 07:57:54] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:57:54,976:INFO:127.0.0.1 - - [11/Jul/2025 07:57:54] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:55,004:INFO:127.0.0.1 - - [11/Jul/2025 07:57:55] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:58,377:INFO:127.0.0.1 - - [11/Jul/2025 07:57:58] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:57:58,394:INFO:127.0.0.1 - - [11/Jul/2025 07:57:58] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:57:58,421:INFO:127.0.0.1 - - [11/Jul/2025 07:57:58] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:22,578:INFO:127.0.0.1 - - [11/Jul/2025 07:58:22] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:58:22,597:INFO:127.0.0.1 - - [11/Jul/2025 07:58:22] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:22,623:INFO:127.0.0.1 - - [11/Jul/2025 07:58:22] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:22,988:INFO:127.0.0.1 - - [11/Jul/2025 07:58:22] "GET /login HTTP/1.1" 200 -
+2025-07-11 07:58:23,005:INFO:127.0.0.1 - - [11/Jul/2025 07:58:23] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:23,034:INFO:127.0.0.1 - - [11/Jul/2025 07:58:23] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:35,457:INFO:127.0.0.1 - - [11/Jul/2025 07:58:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 07:58:35,479:INFO:127.0.0.1 - - [11/Jul/2025 07:58:35] "GET / HTTP/1.1" 200 -
+2025-07-11 07:58:35,503:INFO:127.0.0.1 - - [11/Jul/2025 07:58:35] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:38,949:INFO:127.0.0.1 - - [11/Jul/2025 07:58:38] "GET /profile HTTP/1.1" 200 -
+2025-07-11 07:58:38,970:INFO:127.0.0.1 - - [11/Jul/2025 07:58:38] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 07:58:38,980:INFO:127.0.0.1 - - [11/Jul/2025 07:58:38] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:15:38,550:INFO:127.0.0.1 - - [11/Jul/2025 09:15:38] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+2025-07-11 09:15:38,581:INFO:127.0.0.1 - - [11/Jul/2025 09:15:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-11 09:18:34,454:INFO:127.0.0.1 - - [11/Jul/2025 09:18:34] "[31m[1mPOST /logout HTTP/1.1[0m" 400 -
+2025-07-11 09:18:37,045:INFO:127.0.0.1 - - [11/Jul/2025 09:18:37] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:18:37,072:INFO:127.0.0.1 - - [11/Jul/2025 09:18:37] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:37,074:INFO:127.0.0.1 - - [11/Jul/2025 09:18:37] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:37,111:INFO:127.0.0.1 - - [11/Jul/2025 09:18:37] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:48,304:INFO:127.0.0.1 - - [11/Jul/2025 09:18:48] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:18:48,320:INFO:127.0.0.1 - - [11/Jul/2025 09:18:48] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:48,323:INFO:127.0.0.1 - - [11/Jul/2025 09:18:48] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:48,361:INFO:127.0.0.1 - - [11/Jul/2025 09:18:48] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:53,532:INFO:127.0.0.1 - - [11/Jul/2025 09:18:53] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:18:53,548:INFO:127.0.0.1 - - [11/Jul/2025 09:18:53] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:53,549:INFO:127.0.0.1 - - [11/Jul/2025 09:18:53] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:18:53,591:INFO:127.0.0.1 - - [11/Jul/2025 09:18:53] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:26,971:INFO:127.0.0.1 - - [11/Jul/2025 09:19:26] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:19:26,990:INFO:127.0.0.1 - - [11/Jul/2025 09:19:26] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:26,991:INFO:127.0.0.1 - - [11/Jul/2025 09:19:26] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:27,030:INFO:127.0.0.1 - - [11/Jul/2025 09:19:27] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:32,367:INFO:127.0.0.1 - - [11/Jul/2025 09:19:32] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:19:32,384:INFO:127.0.0.1 - - [11/Jul/2025 09:19:32] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:32,384:INFO:127.0.0.1 - - [11/Jul/2025 09:19:32] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:32,424:INFO:127.0.0.1 - - [11/Jul/2025 09:19:32] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 09:19:46,703:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__init__.py', reloading
+2025-07-11 09:19:46,723:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\helpers.py', reloading
+2025-07-11 09:19:46,824:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-07-11 09:19:46,835:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-07-11 09:19:46,865:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-07-11 09:19:46,887:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask_mysqldb\\__init__.py', reloading
+2025-07-11 09:19:46,947:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\dotenv\\__init__.py', reloading
+2025-07-11 09:19:46,961:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\dotenv\\main.py', reloading
+2025-07-11 09:19:47,371:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\templating.py', reloading
+2025-07-11 09:19:47,390:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\__init__.py', reloading
+2025-07-11 09:19:47,403:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\environment.py', reloading
+2025-07-11 09:19:47,453:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask_wtf\\csrf.py', reloading
+2025-07-11 09:19:47,547:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 09:19:49,455:WARNING: * Debugger is active!
+2025-07-11 09:19:49,459:INFO: * Debugger PIN: 102-923-634
+2025-07-11 09:19:58,789:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-07-11 09:19:58,816:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\app.py', reloading
+2025-07-11 09:19:58,836:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-07-11 09:19:59,739:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 09:20:00,148:WARNING: * Debugger is active!
+2025-07-11 09:20:00,151:INFO: * Debugger PIN: 102-923-634
+2025-07-11 09:20:33,439:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\typing.py', reloading
+2025-07-11 09:20:33,452:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-07-11 09:20:33,470:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-07-11 09:20:33,685:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 09:20:34,118:WARNING: * Debugger is active!
+2025-07-11 09:20:34,122:INFO: * Debugger PIN: 102-923-634
+2025-07-11 09:20:44,509:INFO: * Detected change in 'D:\\Mraas\\Kuliah\\TA\\Pengamanan Data Waris backup\\app.py', reloading
+2025-07-11 09:20:44,511:INFO: * Detected change in 'D:\\Mraas\\Kuliah\\TA\\Pengamanan Data Waris backup\\app.py', reloading
+2025-07-11 09:20:44,511:INFO: * Detected change in 'D:\\Mraas\\Kuliah\\TA\\Pengamanan Data Waris backup\\app.py', reloading
+2025-07-11 09:20:45,331:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 09:20:45,823:WARNING: * Debugger is active!
+2025-07-11 09:20:45,827:INFO: * Debugger PIN: 102-923-634
+2025-07-11 09:20:46,337:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-11 09:20:46,345:INFO:127.0.0.1 - - [11/Jul/2025 09:20:46] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:20:46,512:INFO:127.0.0.1 - - [11/Jul/2025 09:20:46] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:20:46,519:INFO:127.0.0.1 - - [11/Jul/2025 09:20:46] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:20:46,528:INFO:127.0.0.1 - - [11/Jul/2025 09:20:46] "[36mGET /static/faviconKotaMadiun-32x32.png HTTP/1.1[0m" 304 -
+2025-07-11 09:20:46,919:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 09:20:47,382:WARNING: * Debugger is active!
+2025-07-11 09:20:47,386:INFO: * Debugger PIN: 102-923-634
+2025-07-11 09:20:47,419:INFO:127.0.0.1 - - [11/Jul/2025 09:20:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 09:20:47,450:INFO:127.0.0.1 - - [11/Jul/2025 09:20:47] "GET /login HTTP/1.1" 200 -
+2025-07-11 09:20:47,546:INFO:127.0.0.1 - - [11/Jul/2025 09:20:47] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:44,304:INFO:127.0.0.1 - - [11/Jul/2025 09:22:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 09:22:44,318:INFO:127.0.0.1 - - [11/Jul/2025 09:22:44] "GET / HTTP/1.1" 200 -
+2025-07-11 09:22:44,344:INFO:127.0.0.1 - - [11/Jul/2025 09:22:44] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:54,691:INFO:127.0.0.1 - - [11/Jul/2025 09:22:54] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:22:54,713:INFO:127.0.0.1 - - [11/Jul/2025 09:22:54] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:54,714:INFO:127.0.0.1 - - [11/Jul/2025 09:22:54] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:56,996:INFO:127.0.0.1 - - [11/Jul/2025 09:22:56] "GET / HTTP/1.1" 200 -
+2025-07-11 09:22:57,019:INFO:127.0.0.1 - - [11/Jul/2025 09:22:57] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:57,480:INFO:127.0.0.1 - - [11/Jul/2025 09:22:57] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:22:57,503:INFO:127.0.0.1 - - [11/Jul/2025 09:22:57] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:57,506:INFO:127.0.0.1 - - [11/Jul/2025 09:22:57] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:22:59,275:INFO:127.0.0.1 - - [11/Jul/2025 09:22:59] "GET / HTTP/1.1" 200 -
+2025-07-11 09:22:59,299:INFO:127.0.0.1 - - [11/Jul/2025 09:22:59] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:03,005:INFO:127.0.0.1 - - [11/Jul/2025 09:23:03] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:23:03,027:INFO:127.0.0.1 - - [11/Jul/2025 09:23:03] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:03,029:INFO:127.0.0.1 - - [11/Jul/2025 09:23:03] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:04,796:INFO:127.0.0.1 - - [11/Jul/2025 09:23:04] "GET /edit_profile HTTP/1.1" 200 -
+2025-07-11 09:23:04,819:INFO:127.0.0.1 - - [11/Jul/2025 09:23:04] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:04,820:INFO:127.0.0.1 - - [11/Jul/2025 09:23:04] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:07,025:INFO:127.0.0.1 - - [11/Jul/2025 09:23:07] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:23:07,050:INFO:127.0.0.1 - - [11/Jul/2025 09:23:07] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:07,051:INFO:127.0.0.1 - - [11/Jul/2025 09:23:07] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:10,720:INFO:127.0.0.1 - - [11/Jul/2025 09:23:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 09:23:10,728:INFO:127.0.0.1 - - [11/Jul/2025 09:23:10] "GET /login HTTP/1.1" 200 -
+2025-07-11 09:23:10,753:INFO:127.0.0.1 - - [11/Jul/2025 09:23:10] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:26,898:INFO:127.0.0.1 - - [11/Jul/2025 09:23:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 09:23:26,904:INFO:127.0.0.1 - - [11/Jul/2025 09:23:26] "GET / HTTP/1.1" 200 -
+2025-07-11 09:23:26,930:INFO:127.0.0.1 - - [11/Jul/2025 09:23:26] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:28,356:INFO:127.0.0.1 - - [11/Jul/2025 09:23:28] "GET /profile HTTP/1.1" 200 -
+2025-07-11 09:23:28,379:INFO:127.0.0.1 - - [11/Jul/2025 09:23:28] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:28,381:INFO:127.0.0.1 - - [11/Jul/2025 09:23:28] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 09:23:32,795:INFO:127.0.0.1 - - [11/Jul/2025 09:23:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 09:23:32,803:INFO:127.0.0.1 - - [11/Jul/2025 09:23:32] "GET /login HTTP/1.1" 200 -
+2025-07-11 09:23:32,826:INFO:127.0.0.1 - - [11/Jul/2025 09:23:32] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 13:38:40,800:INFO:127.0.0.1 - - [11/Jul/2025 13:38:40] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-07-11 13:38:44,477:INFO:127.0.0.1 - - [11/Jul/2025 13:38:44] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-07-11 13:38:52,899:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.70.1.140:5000
+2025-07-11 13:38:52,899:INFO:[33mPress CTRL+C to quit[0m
+2025-07-11 13:38:52,934:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 13:38:53,675:WARNING: * Debugger is active!
+2025-07-11 13:38:53,687:INFO: * Debugger PIN: 102-923-634
+2025-07-11 13:39:01,387:INFO:127.0.0.1 - - [11/Jul/2025 13:39:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-11 13:39:01,413:INFO:127.0.0.1 - - [11/Jul/2025 13:39:01] "GET /login HTTP/1.1" 200 -
+2025-07-11 13:39:01,414:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-11 13:39:01,566:INFO:127.0.0.1 - - [11/Jul/2025 13:39:01] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:01,956:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 13:39:02,474:WARNING: * Debugger is active!
+2025-07-11 13:39:02,479:INFO: * Debugger PIN: 102-923-634
+2025-07-11 13:39:12,810:INFO:127.0.0.1 - - [11/Jul/2025 13:39:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 13:39:12,856:INFO:127.0.0.1 - - [11/Jul/2025 13:39:12] "GET / HTTP/1.1" 200 -
+2025-07-11 13:39:12,981:INFO:127.0.0.1 - - [11/Jul/2025 13:39:12] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:17,894:INFO:127.0.0.1 - - [11/Jul/2025 13:39:17] "GET /profile HTTP/1.1" 200 -
+2025-07-11 13:39:17,930:INFO:127.0.0.1 - - [11/Jul/2025 13:39:17] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:17,931:INFO:127.0.0.1 - - [11/Jul/2025 13:39:17] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:23,456:INFO:127.0.0.1 - - [11/Jul/2025 13:39:23] "GET /edit_profile HTTP/1.1" 200 -
+2025-07-11 13:39:23,486:INFO:127.0.0.1 - - [11/Jul/2025 13:39:23] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:23,489:INFO:127.0.0.1 - - [11/Jul/2025 13:39:23] "[36mGET /static/uploads/Diluc.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:35,997:INFO:127.0.0.1 - - [11/Jul/2025 13:39:35] "[32mPOST /edit_profile HTTP/1.1[0m" 302 -
+2025-07-11 13:39:36,010:INFO:127.0.0.1 - - [11/Jul/2025 13:39:36] "GET /profile HTTP/1.1" 200 -
+2025-07-11 13:39:36,036:INFO:127.0.0.1 - - [11/Jul/2025 13:39:36] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 13:39:36,044:INFO:127.0.0.1 - - [11/Jul/2025 13:39:36] "GET /static/uploads/297896.png HTTP/1.1" 200 -
+2025-07-11 14:03:06,427:INFO:127.0.0.1 - - [11/Jul/2025 14:03:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 14:03:06,439:INFO:127.0.0.1 - - [11/Jul/2025 14:03:06] "GET /login HTTP/1.1" 200 -
+2025-07-11 14:03:06,463:INFO:127.0.0.1 - - [11/Jul/2025 14:03:06] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 16:51:32,212:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-07-11 16:51:32,212:INFO:[33mPress CTRL+C to quit[0m
+2025-07-11 16:51:32,314:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 16:51:32,690:WARNING: * Debugger is active!
+2025-07-11 16:51:32,695:INFO: * Debugger PIN: 126-439-226
+2025-07-11 16:51:36,852:INFO:127.0.0.1 - - [11/Jul/2025 16:51:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-11 16:51:36,905:INFO:127.0.0.1 - - [11/Jul/2025 16:51:36] "GET /login HTTP/1.1" 200 -
+2025-07-11 16:51:36,906:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-11 16:51:37,092:INFO:127.0.0.1 - - [11/Jul/2025 16:51:37] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 16:51:37,827:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 16:51:38,255:WARNING: * Debugger is active!
+2025-07-11 16:51:38,258:INFO: * Debugger PIN: 126-439-226
+2025-07-11 16:51:44,213:INFO:127.0.0.1 - - [11/Jul/2025 16:51:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-11 16:51:44,259:INFO:127.0.0.1 - - [11/Jul/2025 16:51:44] "GET / HTTP/1.1" 200 -
+2025-07-11 16:51:44,355:INFO:127.0.0.1 - - [11/Jul/2025 16:51:44] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 16:51:47,012:INFO:127.0.0.1 - - [11/Jul/2025 16:51:47] "GET /enkripsi HTTP/1.1" 200 -
+2025-07-11 16:51:47,034:INFO:127.0.0.1 - - [11/Jul/2025 16:51:47] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 16:54:32,239:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__init__.py', reloading
+2025-07-11 16:54:32,265:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2025-07-11 16:54:32,356:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\app.py', reloading
+2025-07-11 16:54:32,391:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-07-11 16:54:32,431:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\globals.py', reloading
+2025-07-11 16:54:32,445:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\wrappers.py', reloading
+2025-07-11 16:54:32,458:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-07-11 16:54:32,479:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-07-11 16:54:32,505:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-07-11 16:54:32,528:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\json\\__init__.py', reloading
+2025-07-11 16:54:32,546:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-07-11 16:54:32,574:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-07-11 16:54:32,604:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\helpers.py', reloading
+2025-07-11 16:54:32,707:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 16:54:33,343:WARNING: * Debugger is active!
+2025-07-11 16:54:33,350:INFO: * Debugger PIN: 126-439-226
+2025-07-11 16:54:33,392:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\typing.py', reloading
+2025-07-11 16:54:33,410:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-07-11 16:54:33,433:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-07-11 16:54:33,496:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\ctx.py', reloading
+2025-07-11 16:54:33,679:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\__init__.py', reloading
+2025-07-11 16:54:33,696:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\url_safe.py', reloading
+2025-07-11 16:54:33,708:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\serializer.py', reloading
+2025-07-11 16:54:33,727:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\timed.py', reloading
+2025-07-11 16:54:33,747:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\itsdangerous\\signer.py', reloading
+2025-07-11 16:54:33,787:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\config.py', reloading
+2025-07-11 16:54:33,926:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\_internal.py', reloading
+2025-07-11 16:54:33,957:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-07-11 16:54:34,004:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-07-11 16:54:34,061:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+2025-07-11 16:54:34,252:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\accept.py', reloading
+2025-07-11 16:54:34,458:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 16:54:35,024:WARNING: * Debugger is active!
+2025-07-11 16:54:35,029:INFO: * Debugger PIN: 126-439-226
+2025-07-11 18:31:41,085:INFO:127.0.0.1 - - [11/Jul/2025 18:31:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-11 18:31:41,103:INFO:127.0.0.1 - - [11/Jul/2025 18:31:41] "GET /login HTTP/1.1" 200 -
+2025-07-11 18:31:41,103:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-11 18:31:41,223:INFO:127.0.0.1 - - [11/Jul/2025 18:31:41] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-11 18:31:41,576:INFO: * Restarting with watchdog (windowsapi)
+2025-07-11 18:31:42,015:WARNING: * Debugger is active!
+2025-07-11 18:31:42,019:INFO: * Debugger PIN: 126-439-226
+2025-07-18 07:47:51,147:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.70.0.217:5000
+2025-07-18 07:47:51,147:INFO:[33mPress CTRL+C to quit[0m
+2025-07-18 07:47:51,244:INFO: * Restarting with watchdog (windowsapi)
+2025-07-18 07:47:51,621:WARNING: * Debugger is active!
+2025-07-18 07:47:51,627:INFO: * Debugger PIN: 102-923-634
+2025-07-18 07:47:57,426:INFO:127.0.0.1 - - [18/Jul/2025 07:47:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-18 07:47:57,480:INFO:127.0.0.1 - - [18/Jul/2025 07:47:57] "GET /login HTTP/1.1" 200 -
+2025-07-18 07:47:57,480:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2025-07-18 07:47:57,597:INFO:127.0.0.1 - - [18/Jul/2025 07:47:57] "GET /static/logoKotaMadiun.png HTTP/1.1" 200 -
+2025-07-18 07:47:57,701:INFO:127.0.0.1 - - [18/Jul/2025 07:47:57] "GET /static/faviconKotaMadiun-32x32.png HTTP/1.1" 200 -
+2025-07-18 07:47:57,765:INFO: * Restarting with watchdog (windowsapi)
+2025-07-18 07:47:58,172:WARNING: * Debugger is active!
+2025-07-18 07:47:58,176:INFO: * Debugger PIN: 102-923-634
+2025-07-18 07:48:02,653:INFO:127.0.0.1 - - [18/Jul/2025 07:48:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-18 07:48:02,700:INFO:127.0.0.1 - - [18/Jul/2025 07:48:02] "GET / HTTP/1.1" 200 -
+2025-07-18 07:48:02,804:INFO:127.0.0.1 - - [18/Jul/2025 07:48:02] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-18 07:48:06,326:INFO:127.0.0.1 - - [18/Jul/2025 07:48:06] "GET /enkripsi HTTP/1.1" 200 -
+2025-07-18 07:48:06,351:INFO:127.0.0.1 - - [18/Jul/2025 07:48:06] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-18 07:48:42,263:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\MySQLdb\\cursors.py', reloading
+2025-07-18 07:48:42,280:INFO: * Detected change in 'C:\\Users\\Victus\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\MySQLdb\\connections.py', reloading
+2025-07-18 07:48:42,304:INFO:127.0.0.1 - - [18/Jul/2025 07:48:42] "[35m[1mPOST /encrypt_file HTTP/1.1[0m" 500 -
+2025-07-18 07:48:42,852:INFO: * Restarting with watchdog (windowsapi)
+2025-07-18 07:48:43,240:WARNING: * Debugger is active!
+2025-07-18 07:48:43,244:INFO: * Debugger PIN: 102-923-634
+2025-07-18 07:48:47,891:INFO:127.0.0.1 - - [18/Jul/2025 07:48:47] "POST /encrypt_file HTTP/1.1" 200 -
+2025-07-18 07:50:50,274:INFO:127.0.0.1 - - [18/Jul/2025 07:50:50] "GET /download/SPAW_Santoso_23122024.enc HTTP/1.1" 200 -
+2025-07-18 07:53:14,473:INFO:127.0.0.1 - - [18/Jul/2025 07:53:14] "GET /dekripsi HTTP/1.1" 200 -
+2025-07-18 07:53:14,496:INFO:127.0.0.1 - - [18/Jul/2025 07:53:14] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-18 07:53:25,854:INFO:127.0.0.1 - - [18/Jul/2025 07:53:25] "POST /decrypt_file HTTP/1.1" 200 -
+2025-07-18 07:54:34,845:INFO:127.0.0.1 - - [18/Jul/2025 07:54:34] "GET /download/SPAW_Santoso_23122024.pdf HTTP/1.1" 200 -
+2025-07-18 07:54:39,290:INFO:127.0.0.1 - - [18/Jul/2025 07:54:39] "[31m[1mGET /download/SPAW_Santoso_23122024.pdf HTTP/1.1[0m" 401 -
+2025-07-18 07:54:44,291:INFO:127.0.0.1 - - [18/Jul/2025 07:54:44] "[31m[1mGET /download/SPAW_Santoso_23122024.pdf HTTP/1.1[0m" 401 -
+2025-07-18 07:56:51,281:INFO:127.0.0.1 - - [18/Jul/2025 07:56:51] "GET /profile HTTP/1.1" 200 -
+2025-07-18 07:56:51,310:INFO:127.0.0.1 - - [18/Jul/2025 07:56:51] "GET /static/uploads/297896.png HTTP/1.1" 200 -
+2025-07-18 07:56:51,310:INFO:127.0.0.1 - - [18/Jul/2025 07:56:51] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-18 07:56:54,147:INFO:127.0.0.1 - - [18/Jul/2025 07:56:54] "GET /edit_profile HTTP/1.1" 200 -
+2025-07-18 07:56:54,165:INFO:127.0.0.1 - - [18/Jul/2025 07:56:54] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-18 07:56:54,166:INFO:127.0.0.1 - - [18/Jul/2025 07:56:54] "[36mGET /static/uploads/297896.png HTTP/1.1[0m" 304 -
+2025-07-18 07:59:53,461:INFO:127.0.0.1 - - [18/Jul/2025 07:59:53] "GET /profile HTTP/1.1" 200 -
+2025-07-18 07:59:53,480:INFO:127.0.0.1 - - [18/Jul/2025 07:59:53] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -
+2025-07-18 07:59:53,480:INFO:127.0.0.1 - - [18/Jul/2025 07:59:53] "[36mGET /static/uploads/297896.png HTTP/1.1[0m" 304 -
+2025-07-18 08:45:56,754:INFO:127.0.0.1 - - [18/Jul/2025 08:45:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-18 08:45:56,802:INFO:127.0.0.1 - - [18/Jul/2025 08:45:56] "GET /login HTTP/1.1" 200 -
+2025-07-18 08:45:56,824:INFO:127.0.0.1 - - [18/Jul/2025 08:45:56] "[36mGET /static/logoKotaMadiun.png HTTP/1.1[0m" 304 -

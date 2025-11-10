@@ -1,0 +1,134 @@
+{% extends "layout.html" %}
+
+{% block title %}Enkripsi Dokumen{% endblock %}
+
+{% block content %}
+<div class="container py-5" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0"><i class="bi bi-shield-lock-fill"></i> Enkripsi Dokumen PDF</h4>
+                </div>
+                <div class="card-body">
+                    <form id="encryptForm" enctype="multipart/form-data" data-aos="fade-up" data-aos-delay="300">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <div class="mb-3">
+                            <label for="file" class="form-label">Pilih Dokumen Data Waris</label>
+                            <input type="file" class="form-control" name="file" id="file" accept=".pdf" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Klien</label>
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" required>
+                        </div>
+                        <div class="d-grid">
+                            <div class="mb-3">
+                                <label for="custom_key" class="form-label">Kunci Enkripsi (8 sampai 64 karakter)</label>
+                                <input type="text" class="form-control" autocomplete="off" name="custom_key" id="custom_key" required
+                                    minlength="8" maxlength="64" placeholder="Minimal 8 karakter, maksimal 64 karakter">
+                                <small class="form-text text-muted">Gunakan kunci yang mudah diingat dan
+                                    rahasia.</small>
+                            </div>
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-lock-fill"></i> Enkripsi Sekarang
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Spinner  -->
+                    <div id="loadingSpinner" class="text-center my-3 d-none">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Memproses...</span>
+                        </div>
+                        <p class="mt-2">Sedang mengenkripsi dokumen...</p>
+                    </div>
+
+                    <!-- Hasil Sukses -->
+                    <div id="resultSection" class="mt-4 d-none" data-aos="fade-right" data-aos-delay="400">
+                        <div class="alert alert-success">
+                            <h5><i class="bi bi-check-circle-fill"></i> Enkripsi Berhasil!</h5>
+                            <p>Kunci berhasil dikirim ke email klien. File terenkripsi bisa diunduh di bawah ini:</p>
+                            <a id="downloadLink" class="btn btn-outline-primary mt-3" download>
+                                <i class="bi bi-download"></i> Unduh File Terenkripsi
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Error -->
+                    <div id="errorSection" class="alert alert-danger mt-3 d-none" data-aos="fade-left"
+                        data-aos-delay="400"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const customKeyInput = document.getElementById('custom_key');
+
+    customKeyInput.addEventListener('invalid', function () {
+        const length = customKeyInput.value.length;
+
+        if (customKeyInput.validity.tooShort) {
+            customKeyInput.setCustomValidity(
+                `Kata kunci harus terdiri dari 8-64 karakter. (Anda sekarang menggunakan ${length} karakter)`
+                );
+        } else if (customKeyInput.validity.tooLong){
+            customKeyInput.setCustomValidity(
+                `Kata kunci maksimal 64 karakter. (Anda sekarang menggunakan ${length} karakter)`
+                );
+        } else {
+            customKeyInput.setCustomValidity("");
+        }
+    });
+
+    customKeyInput.addEventListener('input', function () {
+        customKeyInput.setCustomValidity("");
+    });
+
+    document.getElementById('encryptForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+        const customKey = formData.get('custom_key');
+
+        const resultSection = document.getElementById('resultSection');
+        const errorSection = document.getElementById('errorSection');
+        const loadingSpinner = document.getElementById('loadingSpinner');
+
+        if (customKey.length < 8 || customKey.length > 64) {
+            errorSection.textContent = `❌ Kata kunci harus 8–64 karakter. (Sekarang ${customKey.length} karakter)`;
+            errorSection.classList.remove('d-none');
+            return;
+        }
+
+        // Reset tampilan
+        resultSection.classList.add('d-none');
+        errorSection.classList.add('d-none');
+        loadingSpinner.classList.remove('d-none');
+
+        try {
+            const response = await fetch('/encrypt_file', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            loadingSpinner.classList.add('d-none');
+
+            if (!response.ok) {
+                throw new Error(data.error || 'Terjadi kesalahan saat enkripsi.');
+            }
+
+            document.getElementById('downloadLink').href = data.encrypted_file_url;
+            resultSection.classList.remove('d-none');
+            form.reset();
+        } catch (err) {
+            loadingSpinner.classList.add('d-none');
+            errorSection.textContent = '❌ ' + err.message;
+            errorSection.classList.remove('d-none');
+        }
+    });
+</script>
+{% endblock %}
