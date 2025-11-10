@@ -1,7 +1,7 @@
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
-# Enkripsi AES dengan key dan IV yang sudah diberikan
+# Enkripsi AES dengan key dan IV
 def encrypt_aes_cbc(plain_data, key, iv):
     cipher = AES.new(key, AES.MODE_CBC, iv)
     padded_data = pad(plain_data, AES.block_size)
